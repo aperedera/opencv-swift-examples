@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B60298B82316125D0047BB61 /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B60298B72316125C0047BB61 /* opencv2.framework */; };
 		B663D9741CF6749A00FF1C8C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B663D9731CF6749A00FF1C8C /* AppDelegate.swift */; };
 		B663D9761CF6749A00FF1C8C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B663D9751CF6749A00FF1C8C /* ViewController.swift */; };
 		B663D9791CF6749A00FF1C8C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B663D9771CF6749A00FF1C8C /* Main.storyboard */; };
@@ -25,7 +24,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		B60298B72316125C0047BB61 /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = opencv2.framework; sourceTree = "<group>"; };
 		B663D9701CF6749900FF1C8C /* OpenCV_1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenCV_1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B663D9731CF6749A00FF1C8C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B663D9751CF6749A00FF1C8C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -54,7 +52,6 @@
 				B6EB908F230CE7C9001D771E /* CoreMedia.framework in Frameworks */,
 				B6EB9090230CE7C9001D771E /* AVFoundation.framework in Frameworks */,
 				B6EB9091230CE7C9001D771E /* AssetsLibrary.framework in Frameworks */,
-				B60298B82316125D0047BB61 /* opencv2.framework in Frameworks */,
 				B6EB9092230CE7C9001D771E /* Accelerate.framework in Frameworks */,
 				B6EB9093230CE7C9001D771E /* CoreGraphics.framework in Frameworks */,
 				B6EB9094230CE7C9001D771E /* CoreImage.framework in Frameworks */,
@@ -69,7 +66,6 @@
 		B663D9671CF6749900FF1C8C = {
 			isa = PBXGroup;
 			children = (
-				B60298B72316125C0047BB61 /* opencv2.framework */,
 				B663D9721CF6749A00FF1C8C /* OpenCV_1 */,
 				B663D9711CF6749900FF1C8C /* Products */,
 				B6EB9086230CE7C8001D771E /* Frameworks */,
