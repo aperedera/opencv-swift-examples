@@ -11,7 +11,6 @@
 		B663D9761CF6749A00FF1C8C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B663D9751CF6749A00FF1C8C /* ViewController.swift */; };
 		B663D9791CF6749A00FF1C8C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B663D9771CF6749A00FF1C8C /* Main.storyboard */; };
 		B663D97B1CF6749A00FF1C8C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B663D97A1CF6749A00FF1C8C /* Assets.xcassets */; };
-		B663D97E1CF6749A00FF1C8C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B663D97C1CF6749A00FF1C8C /* LaunchScreen.storyboard */; };
 		B663D9871CF6772400FF1C8C /* CvVideoCameraWrapper.mm in Sources */ = {isa = PBXBuildFile; fileRef = B663D9861CF6772400FF1C8C /* CvVideoCameraWrapper.mm */; };
 		B6EB908F230CE7C9001D771E /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6EB9087230CE7C8001D771E /* CoreMedia.framework */; };
 		B6EB9090230CE7C9001D771E /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6EB9088230CE7C8001D771E /* AVFoundation.framework */; };
@@ -29,7 +28,6 @@
 		B663D9751CF6749A00FF1C8C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B663D9781CF6749A00FF1C8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B663D97A1CF6749A00FF1C8C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		B663D97D1CF6749A00FF1C8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B663D97F1CF6749A00FF1C8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B663D9851CF6772300FF1C8C /* OpenCV_1-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OpenCV_1-Bridging-Header.h"; sourceTree = "<group>"; };
 		B663D9861CF6772400FF1C8C /* CvVideoCameraWrapper.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CvVideoCameraWrapper.mm; sourceTree = "<group>"; };
@@ -89,7 +87,6 @@
 				B663D9751CF6749A00FF1C8C /* ViewController.swift */,
 				B663D9771CF6749A00FF1C8C /* Main.storyboard */,
 				B663D97A1CF6749A00FF1C8C /* Assets.xcassets */,
-				B663D97C1CF6749A00FF1C8C /* LaunchScreen.storyboard */,
 				B663D97F1CF6749A00FF1C8C /* Info.plist */,
 				B663D9851CF6772300FF1C8C /* OpenCV_1-Bridging-Header.h */,
 			);
@@ -171,7 +168,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B663D97E1CF6749A00FF1C8C /* LaunchScreen.storyboard in Resources */,
 				B663D97B1CF6749A00FF1C8C /* Assets.xcassets in Resources */,
 				B663D9791CF6749A00FF1C8C /* Main.storyboard in Resources */,
 			);
@@ -199,14 +195,6 @@
 				B663D9781CF6749A00FF1C8C /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		B663D97C1CF6749A00FF1C8C /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B663D97D1CF6749A00FF1C8C /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -331,13 +319,13 @@
 				);
 				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = OpenCV_1/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				OTHER_CFLAGS = "-fvisibility=hidden";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.self.OpenCV-1";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.self.anatoli.OpenCV-1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "OpenCV_1/OpenCV_1-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -358,13 +346,13 @@
 				);
 				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = OpenCV_1/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				OTHER_CFLAGS = "-fvisibility=hidden";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.self.OpenCV-1";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.self.anatoli.OpenCV-1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "OpenCV_1/OpenCV_1-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;

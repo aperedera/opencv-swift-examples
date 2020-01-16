@@ -45,11 +45,11 @@ using namespace cv;
 {
     // Do some OpenCV stuff with the image
     Mat image_copy;
-    cvtColor(image, image_copy, CV_BGRA2BGR);
+    cvtColor(image, image_copy, COLOR_BGRA2BGR);
     
     // invert image
     bitwise_not(image_copy, image_copy);
-    cvtColor(image_copy, image, CV_BGR2BGRA);
+    cvtColor(image_copy, image, COLOR_BGR2BGRA);
 }
 #endif
 
